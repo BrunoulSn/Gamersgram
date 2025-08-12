@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Login Page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.logo {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #ff0044;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.login-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #222;
+  color: #fff;
+}
+
+.login-form button {
+  padding: 12px;
+  background-color: #ff0044;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Feed */
+.top-bar {
+  padding: 15px;
+  background-color: #1f1f1f;
+  text-align: center;
+  font-size: 18px;
+}
+
+.post {
+  padding: 20px;
+  text-align: center;
+}
+
+.post img {
+  width: 90%;
+  max-width: 300px;
+  border: 2px solid #ff0044;
+  border-radius: 10px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #1f1f1f;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.bottom-nav a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Search & Messages */
+.search-bar {
+  padding: 15px;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 90%;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.message-section {
+  padding: 20px;
+}
+
+.message {
+  background: #222;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
