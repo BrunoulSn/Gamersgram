@@ -18,7 +18,7 @@ function LikePost(postOption) {
 
 function CommentPost(postOption){
     if (!comment) {
-    postOption.src = "https://img.icons8.com/pulsar-gradient/50/chat-message.png"
+    postOption.src = "https://img.icons8.com/pulsar-line/48/chat-message.png"
     comment = true
     return
   }
