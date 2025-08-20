@@ -5,17 +5,20 @@
   box-sizing: border-box;
 }
 
-.mainScreen{
-  width: 50%;
+.mainScreen {
+  width: 100%;
   background-color: #1f1f1f;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
   display: flex;
   justify-content: center;
   font-family: 'Orbitron', sans-serif;
-  background-color: #be2915;
+  background-color: #252222;
   color: #fff;
 }
 
@@ -46,7 +49,6 @@ body {
   padding: 12px;
   border: none;
   border-radius: 8px;
-  background-color: #222;
   color: #fff;
 }
 
@@ -60,39 +62,86 @@ body {
   font-weight: bold;
 }
 
+/*Login End*/
+
 /* Feed */
 .top-bar {
   padding: 15px;
-  background-color: #1f1f1f;
   text-align: center;
   font-size: 18px;
 }
 
-.post {
+/*POST START*/
+
+.list_post {
+  max-height: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.post-card {
+  width: fit-content;
   padding: 20px;
-  text-align: center;
+}
+
+.account {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.account img {
+  width: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.account p {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .post img {
-  width: 90%;
-  max-width: 300px;
-  border: 2px solid #ff0044;
+  width: 100%;
+  width: 700px;
+  border: 3px solid #ff0044;
   border-radius: 10px;
 }
 
+.post button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 1%;
+}
+
+/*POST END*/
+
 .bottom-nav {
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
   position: fixed;
-  bottom: 0;
-  width: 50%;
+  left: 0;
+  width: fit-content;
+  padding: 40px;
+  height: 100%;
   background: #1f1f1f;
   display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottom-nav:hover {
+  transition: 0.5s;
+  padding: 50px;
+
 }
 
 .bottom-nav a {
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
 }
 
@@ -114,6 +163,7 @@ body {
 
 .message-section {
   padding: 20px;
+  height: 100vh;
 }
 
 .message {
@@ -121,4 +171,9 @@ body {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 8px;
+}
+
+.messages-page {
+  width: 100%;
+  display: grid;
 }
