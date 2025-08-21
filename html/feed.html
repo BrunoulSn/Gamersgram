@@ -10,7 +10,7 @@
 <body class="feed-page">
   <main class="mainScreen">
     <header class="top-bar">
-      <span class="username">BrunãoTheMachine</span>
+      <img src="https://i.postimg.cc/nVXjYw4p/Captura-de-tela-2025-08-20-193656-removebg-preview-1.png" alt="">
     </header>
 
     <main class="post-card">
@@ -29,13 +29,27 @@
             <div><img class="post-option" src="https://img.icons8.com/nolan/64/like.png" onclick="LikePost(this);"
                 alt="filled-like" />
             </div>
-            <div><img class="post-option" src="https://img.icons8.com/pulsar-line/48/chat-message.png" onclick="CommentPost(this);"
-                 alt="chat-message" /></div>
+            <div><img class="post-option" src="https://img.icons8.com/pulsar-line/48/chat-message.png"
+                onclick="CommentPost(this);" alt="chat-message" /></div>
             <div><img class="post-option" src="https://img.icons8.com/nolan/64/share.png" alt="share" /></div>
             <div><img class="post-option" src="https://img.icons8.com/ios-filled/50/menu-2.png" alt="menu-2" /></div>
           </div>
-          <p>Big Team, playing ranked for 48 hours in a row, All Right! <button id="showDescription">Ler mais</button>
+          <p id="descriptionPost">Big Team, playing ranked for 48 hours in a row, All Right! <button id="showDescription" onclick="ReadMore(this);">Ler mais</button>
           </p>
+        </div>
+      </div>
+      <br>
+      <div>
+        <div class="Comment-Account">
+          <div class="Comment-Account-Photo">
+            <img src="https://www.dexerto.com/cdn-image/wp-content/uploads/2024/01/16/jynxzi-twitch.jpg?width=768&quality=60&format=auto" alt="Foto Perfil">
+            <p></p>
+          </div>
+          <div class="Comment-Account-Message">
+            <p style="max-width: 650px; margin: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis voluptas minus aliquid ex, quas facilis
+              possimus consequuntur! Itaque mollitia unde, quae ducimus placeat omnis quam rerum beatae earum minima
+              similique!</p>
+          </div>
         </div>
       </div>
     </main>
@@ -50,6 +64,6 @@
   </main>
 </body>
 
-<script src="/js/main.js"></script>
+<script src="/js/feedController.js"></script>
 
 </html>
