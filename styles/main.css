@@ -85,6 +85,12 @@ body {
   padding: 20px;
 }
 
+.post-card-comment-hide .Comment-Account{
+  transition: 1s ease-in;
+  display: none;
+}
+
+
 .account {
   width: fit-content;
   display: flex;
@@ -130,10 +136,25 @@ body {
   cursor: pointer;
 }
 
+.post-description-div-reduced p {
+  max-width: 700px;
+    max-height: 43px; /* altura inicial */
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.3s ease;
+  }
+
+  .post-description-div-expand p{
+    max-height: 500px; /* altura expandida */
+    transition: max-height 0.3s ease;
+    
+  }
+
 .Comment-Account{
   overflow-y: auto;
   overflow-x: hidden;
   max-height: 350px;
+  
 }
 
 .Comment-Account-Photo img{
