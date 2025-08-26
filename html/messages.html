@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Mensagens</title>
   <link rel="stylesheet" href="/styles/main.css" />
+  <link rel="stylesheet" href="/styles/messagesStyle.css">
 </head>
 <body class="messages-page">
 
@@ -12,17 +13,71 @@
   </header>
 
   <main class="message-section">
-    <section>
-      <div>
-        <img src="https://tse3.mm.bing.net/th/id/OIP.AACWfn4_xtAWe1eZO44a4gHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Foto Usuario">
-        <p>Aspas</p>
+    <section class="chat-card">
+      <div class="user-info">
+        <img 
+          src="https://tse3.mm.bing.net/th/id/OIP.AACWfn4_xtAWe1eZO44a4gHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" 
+          alt="Foto do Usuário" 
+          class="user-photo"
+        />
+        <p class="user-name">Aspas</p>
       </div>
-      <p>Valeu por me carregar, irmão. Próxima vez eu tento não ser peso morto</p>
-     </section>
+      <p class="message">Valeu por me carregar, irmão. Próxima vez eu tento não ser peso morto</p>
+    </section>
+
+    <section class="chat-card">
+      <div class="user-info">
+        <img 
+          src="https://randomuser.me/api/portraits/men/32.jpg" 
+          alt="Foto do Usuário" 
+          class="user-photo"
+        />
+        <p class="user-name">Faker</p>
+      </div>
+      <p class="message">GG! Jogou muito, time. Bora ranquear mais tarde?</p>
+    </section>
+
+    <section class="chat-card">
+      <div class="user-info">
+        <img 
+          src="https://randomuser.me/api/portraits/women/44.jpg" 
+          alt="Foto do Usuário" 
+          class="user-photo"
+        />
+        <p class="user-name">Samira</p>
+      </div>
+      <p class="message">Alguém on pra fechar squad?</p>
+    </section>
+
+    <section class="chat-card">
+      <div class="user-info">
+        <img 
+          src="https://randomuser.me/api/portraits/men/65.jpg" 
+          alt="Foto do Usuário" 
+          class="user-photo"
+        />
+        <p class="user-name">Bruno</p>
+      </div>
+      <p class="message">Partida insana ontem! Bora repetir hoje?</p>
+    </section>
+
+    <section class="chat-card">
+      <div class="user-info">
+        <img 
+          src="https://randomuser.me/api/portraits/women/12.jpg" 
+          alt="Foto do Usuário" 
+          class="user-photo"
+        />
+        <p class="user-name">Letícia</p>
+      </div>
+      <p class="message">Mandei convite no Discord, aceita lá!</p>
+    </section>
   </main>
 
   <nav class="bottom-nav" id="navbarAside">
+    <!-- Conteúdo da barra lateral -->
+  </nav>
 
+  <script src="/js/Layout/asideBar.js"></script>
 </body>
-<script src="/js/Layout/asideBar.js"></script>
 </html>
