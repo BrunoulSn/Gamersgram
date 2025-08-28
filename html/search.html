@@ -1,22 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <title>Buscar Players</title>
   <link rel="stylesheet" href="/styles/main.css" />
+  <link rel="stylesheet" href="/styles/searchStyle.css" />
 </head>
+
 <body class="search-page">
+  <div class="mainScreenSearch">
+    <header class="search-bar">
+      <input type="text" placeholder="Buscar jogadores..." />
+    </header>
 
-  <header class="search-bar">
-    <input type="text" placeholder="Buscar jogadores..." />
-  </header>
+    <main class="results" id="results-search">
+      <section class="person-card">
+        <div class="info-person">
+          <img src="https://i.ibb.co/gZmW6PN4/Abex.png" alt="Abelão Pereira">
+          <p>Abelão Pereira</p>
+        </div>
+        <div class="description-person">
+          <p>Conhecido por sempre estar no lobby... porque morreu primeiro. O beta oficial do time no FPS.</p>
+        </div>
+      </section>
 
-  <main class="results">
-    <!-- Conteúdo populado via JS futuramente -->
-  </main>
+      <section class="person-card">
+        <div class="info-person">
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Ana Souza">
+          <p>Ana Souza</p>
+        </div>
+        <div class="description-person">
+          <p>Mestre dos dados e das escolhas dramáticas. Uma referência em RPGs de mesa e digitais.</p>
+        </div>
+      </section>
+      <section class="person-card">
+        <div class="info-person">
+          <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Lima Mey">
+          <p>Lima Mey</p>
+        </div>
+        <div class="description-person">
+          <p>Calculista, frio e estratégico. Nunca entra em uma partida sem um plano de 5 etapas.</p>
+        </div>
+      </section>
+      <section class="person-card">
+        <div class="info-person">
+          <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="Fernanda Costa">
+          <p>Fernanda Costa</p>
+        </div>
+        <div class="description-person">
+          <p>Rainha do MOBA. Se você está no time adversário, já pode ir clicando em "surrender"</p>
+        </div>
+      </section>
+      <section class="person-card">
+        <div class="info-person">
+          <img src="https://i.ibb.co/xqK4W65w/Luis.png" alt="Luis Prata">
+          <p>Luis Prata</p>
+        </div>
+        <div class="description-person">
+          <p>Veterano do low elo. Consegue se perder até no tutorial. O eterno prata com coração de diamante (só coração mesmo).</p>
+        </div>
+      </section>
+    </main>
 
+  </div>
   <nav class="bottom-nav" id="navbarAside">
-
 </body>
 <script src="/js/Layout/asideBar.js"></script>
+<script src="/js/searchPersonController.js"></script>
+
 </html>
