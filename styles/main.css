@@ -274,21 +274,27 @@ body {
   display: none; /* Chrome, Safari e Opera */
 }
 
-.Comment-Account-Photo{
+.Comment-Account-Photo {
   display: flex;
   align-items: center;
+  gap: 10px; /* Espaço entre a foto e o nome */
+  margin-top: 20px; /* Ajuste opcional para espaçamento */
 }
 
-.Comment-Account-Photo img{
-  margin-top: 40px;
+.Comment-Account-Photo img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
+  margin: 0; /* Remove o margin-top anterior */
 }
 
-.Comment-Account-Message{
-  
+.Comment-Account-Photo .user-name,
+.Comment-Account-Photo p {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+  font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*POST END*/
