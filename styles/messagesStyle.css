@@ -1,11 +1,8 @@
 /* ...existing code... */
 
 .messages-page {
-  width: 100vw;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   background: linear-gradient(135deg, #1f1f1f 60%, #ff0044 100%);
   margin-left: 120px; /* Ajuste conforme a largura da barra lateral */
   box-sizing: border-box;
@@ -29,6 +26,7 @@
   color: #fff;
   margin: 0;
   transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
 }
 
 .chat-card:hover {
