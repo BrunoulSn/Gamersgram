@@ -9,9 +9,14 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #1f1f1f 60%, #ff0044 100%);
+ /* background: linear-gradient(135deg, #1f1f1f 60%, #ff0044 100%);*/
+ background-color: #1f1f1f;
   color: #fff;
   min-height: 100vh;
+}
+
+.search-page{
+  background: linear-gradient(135deg, #1f1f1f 60%, #ff0044 100%);
 }
 
 /* Barra lateral fixa gamer */
@@ -131,9 +136,6 @@ body {
     width: 70px;
     padding: 20px 0;
   }
-  .search-bar, .post-card, .chat-card {
-    max-width: 95vw;
-  }
 }
 
 @media (max-width: 600px) {
@@ -157,12 +159,11 @@ body {
   .mainScreen {
     margin-top: 70px; /* Espaço para a navbar no topo */
     padding-bottom: 20px;
-    width: 100vw;
+
     min-height: calc(100vh - 70px);
     box-sizing: border-box;
   }
   .search-bar, .post-card, .chat-card {
-    max-width: 100vw;
     border-radius: 10px;
     padding: 10px 4px;
   }
@@ -296,9 +297,7 @@ body {
 
 /* Outros estilos existentes mantidos */
 .mainScreen {
-  width: 100%;
   background-color: #1f1f1f;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
