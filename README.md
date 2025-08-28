@@ -3,7 +3,6 @@
 Bem-vindo ao **Gamersgram** – a rede social feita para gamers compartilharem seus momentos, conquistas, dicas e se conectarem com outros apaixonados por jogos!
 
 <div align="center">
-  <img src="docs/logo.png" alt="Gamersgram Logo" width="120" />
   <br />
   <b>Gamersgram – Compartilhe seu universo gamer!</b>
 </div>
