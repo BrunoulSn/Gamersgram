@@ -56,14 +56,10 @@ body {
   max-width: 700px;
   margin: 0 auto;
   padding: 18px 0;
-  background: linear-gradient(90deg, #1f1f1f 80%, #ff0044 100%);
   text-align: center;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-bottom: 2px solid #ff0044;
-  box-shadow: 0 2px 12px #ff0044a0;
 }
 
 .search-bar input {
@@ -157,6 +153,13 @@ body {
     border-right: none;
     border-bottom: 3px solid #ff0044;
     box-shadow: 0 4px 16px #ff0044a0;
+  }
+  .mainScreen {
+    margin-top: 70px; /* Espaço para a navbar no topo */
+    padding-bottom: 20px;
+    width: 100vw;
+    min-height: calc(100vh - 70px);
+    box-sizing: border-box;
   }
   .search-bar, .post-card, .chat-card {
     max-width: 100vw;

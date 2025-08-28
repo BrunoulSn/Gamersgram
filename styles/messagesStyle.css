@@ -23,9 +23,7 @@
 
 .chat-card {
   background: linear-gradient(120deg, #232526 60%, #191654 100%);
-  border: 2px solid #ff0044;
   border-radius: 16px;
-  box-shadow: 0 0 16px 2px #ff0044a0, 0 2px 8px #000a;
   padding: 18px 20px;
   font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
