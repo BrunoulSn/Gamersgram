@@ -1,10 +1,8 @@
-/* ...existing code... */
-
 .messages-page {
   display: flex;
   flex-direction: column;
   background: linear-gradient(135deg, #1f1f1f 60%, #ff0044 100%);
-  margin-left: 120px; /* Ajuste conforme a largura da barra lateral */
+  
   box-sizing: border-box;
 }
 

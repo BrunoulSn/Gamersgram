@@ -11,10 +11,10 @@
 
     // Validação simples dos dados do login
     if (email === 'warwar@gmail.com' && senha === '123456') {
-      alert('Login realizado com sucesso!');
+      showPopup('Login realizado com sucesso!', 'Bem vindo ao Gamersgram!');
       // Redireciona para a página feed.html
       window.location.href = '/html/feed.html';
     } else {
-      alert('Email ou senha incorretos. Tente novamente.');
+      showPopup('Falha no Login', 'Email ou senha incorretos. Tente novamente.');
     }
   });
